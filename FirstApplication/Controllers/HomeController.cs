@@ -15,14 +15,14 @@ namespace FirstApplication.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "We will describe about us later.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "You can contact me on 8755509806.";
 
             return View();
         }
