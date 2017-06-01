@@ -17,7 +17,11 @@
             <p ng-model="name">{{name}}</p>
         </div>
         <div class="col-md-4">
-
+            <div ng-repeat="x in names">
+                <ul>
+                    <li>{{x}}</li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>
