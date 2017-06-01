@@ -1,12 +1,23 @@
 ﻿@{
     ViewBag.Title = "Main Page";
 }
+<script src="~/Scripts/AngularApp/mainModule.js"></script>
+<div ng-app="app" ng-controller="IndexController">
+    <div class="jumbotron" >
+        <h1>Introduction</h1>
 
-<div class="jumbotron">
-    <h1>Introduction</h1>
-    
-</div>
+    </div>
 
-<div class="row">
-    
+    <div class="row">
+        <div class="col-md-4">
+            <input type="text" ng-model="name" />
+
+        </div>
+        <div class="col-md-4">
+            <p ng-model="name">{{name}}</p>
+        </div>
+        <div class="col-md-4">
+
+        </div>
+    </div>
 </div>
